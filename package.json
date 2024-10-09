@@ -1,0 +1,11 @@
+{
+  "name": "node-test-coverage",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node --test --experimental-test-coverage --test-coverage-include='*.js' --test-coverage-exclude='*.test.js'"
+  },
+  "author": "Svante Bengtson <svante@swantzter.se>",
+  "license": "MIT"
+}
